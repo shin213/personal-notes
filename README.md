@@ -7,25 +7,14 @@ graph LR
     M["🏢 MATLyS Inc."]
 
     subgraph CORE["🔧 MATLyS ONE<br/>コアAI/データサイエンスエンジン"]
-        direction LR
         F["👤 古川"]
         K["👤 海里"]
         Mu["👤 村上"]
-        S1[" "]
-        S2[" "]
-        F --> S1
-        K --> S2
-        style S1 fill:none,stroke:none
-        style S2 fill:none,stroke:none
     end
 
     subgraph BIZ["📊 事業サイド"]
-        direction LR
         SLS["🎯 営業部隊"]
-        S3[" "]
         SWE["💻 SWEチーム"]
-        SLS --> S3 --> SWE
-        style S3 fill:none,stroke:none
     end
 
     M --> CORE
